@@ -1,0 +1,25 @@
+{
+  "pages": [
+    
+    "pages/index/index",
+    "pages/message/message",
+    "pages/logs/logs",
+    "pages/logs9/logs9",
+    "pages/logs2/logs2",
+    "pages/logs3/logs3",
+    "pages/logs4/logs4",
+    "pages/logs5/logs5",
+    "pages/logs6/logs6",
+    "pages/logs7/logs7",
+    
+    "pages/logs8/logs8",
+    
+    "pages/logs91/logs91" 
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#f33397",
+    "navigationBarTitleText": "用人工智能改造自己",
+    "navigationBarTextStyle": "black"
+  }
+}

@@ -1,0 +1,26 @@
+<!--pages/message/message.wxml-->
+<view class="container">
+  <view class="bg_title">用AI改造自己</view>
+  <view class="sm_title">----基本信息录入----</view>
+
+
+<label for="nameMessage">请输入您的姓名:
+<input type="text" class="input"  id="nameMessage" auto-focus bindinput='countScours'/>
+</label>
+<view>输入的姓名是：{{message}}</view>
+<view>请选择您的性别:</view>
+<radio-group bindchange="radioChange">
+  <label class="radio" wx:for="{{items}}">
+    <view class="items">
+      <radio value="{{item.name}}" checked="{{item.checked}}"/>
+      <image src="{{item.value}}" class="image_gender"></image>
+    </view>
+  </label>
+</radio-group>
+<view>{{gender}}</view>
+<view>请选择您的星座:</view>
+<input type="text" class="input"  ></input>
+  <view class="next_page">
+    <navigator class="btn_page" url="/pages/logs2/logs2">next</navigator>
+  </view>
+</view>

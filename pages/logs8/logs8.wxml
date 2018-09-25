@@ -1,0 +1,17 @@
+<!--pages/logs8/logs8.wxml-->
+<view class="container">
+  <text>7.华为云在公有服务领域的理念是？</text>
+  <radio-group bindchange="radioChange">
+  <label class="radio" wx:for="{{items}}">
+    <view class="items">
+      <radio value="{{item.name}}" checked="{{item.checked}}"/>{{item.value}}
+    </view>
+  </label>
+</radio-group>
+<view class="next_page">
+  <navigator class="btn_page" url="/pages/logs9/logs9" bindtap='countScours'>next</navigator>
+</view>
+<view>此题得分：{{socurs}}</view>
+<view>累计积分：{{globalScours}}</view>
+</view> 
+

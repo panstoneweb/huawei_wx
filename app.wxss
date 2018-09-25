@@ -1,0 +1,52 @@
+/**app.wxss**/
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 200rpx 0;
+  box-sizing: border-box;
+} 
+.next_page {
+  width:15%;
+  height:25px;
+  background: grey;
+  margin-top:55%;
+  margin-left:50%;
+  line-height: 20px;
+  text-align: left;
+  border-radius: 5px;
+}
+.next_btn {
+  width:100%;
+  height:100%;
+  
+
+}
+.items{
+  /* width:180px; */
+  background: #62978685;
+  border-radius: 5px;
+  border:1px solid #11cbec;
+  margin-top:10px;
+  padding:5px;
+  text-align: center;
+}
+radio .wx-radio-input {
+  border:none;
+  background:none;
+}
+radio .wx-radio-input.wx-radio-input-checked {
+  border:none;
+  background:none;
+  color:aquamarine;
+  position:absolute;
+  left:75%;
+
+}
+/* radio .wx-radio-input.wx-radio-input-checked::before{
+  border-radius:10px;
+  background:none;
+
+} */

@@ -1,0 +1,17 @@
+<!--pages/logs2/logs2.wxml-->
+<view class="container">
+  <text>1.你知道或使用过华为云吗？</text>
+  <radio-group bindchange="radioChange">
+  <label class="radio" wx:for="{{items}}" wx:key="{{key}}">
+    <view class="items">
+      <radio value="{{item.name}}" checked="{{item.checked}}"/>{{item.value}}
+    </view>
+  </label>
+</radio-group>
+<view class="next_page">
+  <button class="btn_page"  bindtap='countScours'>next</button>
+</view>
+<view>此题得分：{{socurs}}</view>
+<view>累计积分：{{globalScours}}</view>
+</view> 
+

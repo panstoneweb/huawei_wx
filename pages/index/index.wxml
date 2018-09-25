@@ -1,0 +1,6 @@
+<!--index.wxml-->
+<view class="container">
+  <text>人工智能时代已到来，</text>
+  <text>是时候用华为云的AI方案来改造自己了.</text>
+  <navigator class="nav_btn" url="/pages/message/message">开始改造</navigator>
+</view>

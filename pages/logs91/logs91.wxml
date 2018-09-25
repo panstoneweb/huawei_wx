@@ -1,0 +1,9 @@
+<!--pages/logs91/logs91.wxml-->
+<view class="container">
+<view>恭喜您{{message}}，获得</view>
+  <view class="scours">{{scours}}</view>
+<view>能量积分</view>
+</view>
+
+
+

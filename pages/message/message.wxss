@@ -1,0 +1,48 @@
+/* pages/message/message.wxss */
+.container {
+  background:rgba(128, 128, 128, 0.37);
+}
+.bg_title{
+  font-size: 30px;
+  color:blueviolet;
+  
+}
+.sm_title{
+  font-size: 15px;
+  color:rgba(128, 128, 128, 0.37);
+  margin-top:15px;
+}
+.input{
+  border:1px solid grey;
+  border-radius:2px;
+  height:30px;
+  width:80%;
+  margin-bottom:15px;
+}
+.items{
+  display: inline;
+  background: none;
+  border:none;
+}
+.image_gender {
+  width:40px;
+  height:76px;
+  
+}
+radio .wx-radio-input {
+  border:none;
+  background:none;
+}
+radio .wx-radio-input.wx-radio-input-checked {
+  border:none;
+  background:none;
+  color:aquamarine;
+  position:relative;
+  left:50px;
+
+}
+radio .wx-radio-input.wx-radio-input-checked::before{
+  border-radius:10px;
+  background:none;
+
+}

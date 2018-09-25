@@ -1,0 +1,17 @@
+<!--pages/logs5/logs5.wxml-->
+<view class="container">
+  <text>5.哪家公司的AI具备栈能力？</text>
+  <radio-group bindchange="radioChange">
+  <label class="radio" wx:for="{{items}}">
+    <view class="items">
+      <radio value="{{item.name}}" color="blue" checked="{{item.checked}}"/>{{item.value}}
+    </view>
+  </label>
+</radio-group>
+<view class="next_page">
+  <navigator class="btn_page" url="/pages/logs7/logs7" bindtap='countScours'>next</navigator>
+</view>
+<view>此题得分：{{socurs}}</view>
+<view>累计积分：{{globalScours}}</view>
+</view> 
+

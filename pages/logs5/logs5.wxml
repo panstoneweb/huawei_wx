@@ -1,0 +1,17 @@
+<!--pages/logs4/logs4.wxml-->
+<view class="container">
+  <text>4.你知道华为云的口号吗？</text>
+  <radio-group bindchange="radioChange">
+  <label class="radio" wx:for="{{items}}">
+    <view class="items">
+      <radio value="{{item.name}}" color="blue" checked="{{item.checked}}"/>{{item.value}}
+    </view>
+  </label>
+</radio-group>
+<view class="next_page">
+  <navigator class="btn_page" url="/pages/logs6/logs6" bindtap='countScours'>next</navigator>
+</view>
+<view>此题得分：{{socurs}}</view>
+<view>累计积分：{{globalScours}}</view>
+</view> 
+

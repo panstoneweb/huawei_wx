@@ -1,0 +1,7 @@
+/* pages/logs91/logs91.wxss */
+.scours {
+  width:50%;
+  line-height:30px;
+  text-align: center;
+  background: palegreen;
+}
